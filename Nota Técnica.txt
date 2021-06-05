@@ -1,0 +1,17 @@
+---------------------------------------------------
+                  NOTA TECNICA
+---------------------------------------------------
+Para este examen se ha disponibilizado un servicio REST 
+que puede ser utilizado para la resolución del examen.
+
+La URL BASE es la siguiente:
+http://157.230.190.251/
+
+Por ejemplo:
+http://157.230.190.251/api/v1/cmodels/secure/ordenes/12345
+
+De todas formas se adjuntan archivos json con las 
+respuestas de cada servicio en caso de contingencia.
+
+
+
