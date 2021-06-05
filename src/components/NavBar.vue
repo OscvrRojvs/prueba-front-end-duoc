@@ -5,13 +5,13 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="#">Company</b-nav-item>
+          <b-nav-item disabled>Company</b-nav-item>
           <b-nav-item to="/home">Home</b-nav-item>
           <b-nav-item to="/ordenes">Ordenes</b-nav-item>
-          <b-nav-item href="#">Inventario</b-nav-item>
+          <b-nav-item disabled>Inventario</b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
-          <b-nav-item href="#">Profile</b-nav-item>
+          <b-nav-item disabled>Profile</b-nav-item>
           <b-nav-item href="/">Log Out</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
