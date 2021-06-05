@@ -1,17 +1,21 @@
 {
   "kpis": [
     {
-      "nombre": "cumplimiento diario de ordenes",
+      "nombre1": "Cumplimiento diario de ordenes",
       "entregadas": "1500",
-      "pendientes": "500"
+      "pendientes": "500",
+      "text_entregadas": "Ordenes entregadas",
+      "text_pendientes": "Ordenes Pendientes"
     },
     {
-      "nombre": "Ordenes atrasadas jornada",
+      "nombre2": "Ordenes atrasadas jornada",
       "totales": "700",
-      "atrasadas": "14"
+      "text_totales": "Ordenes Totales",
+      "atrasadas": "14",
+      "text_atrasadas": "Ordenes Atrasadas"
     }
   ],
-  "utimas_ordenes": [
+  "ultimas_ordenes": [
     {
       "num_orden": "123446",
       "cliente": "Multitiendas Sigma SA",
@@ -37,7 +41,7 @@
       "estado": "Entregado"
     }
   ],
-  "ultimas_devoluciones:": [
+  "ultimas_devoluciones": [
     {
       "num_orden": "122289",
       "cliente": "Multi Game SpA",
