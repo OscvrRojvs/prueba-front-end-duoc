@@ -17,7 +17,7 @@ export default {
        fields: [
            {key: 'num_orden', label: 'N° Orden'},
            {key: 'cliente', label: 'Cliente'},
-           {key: 'fecha_entrega', label: 'Fecha de Entrga'},
+           {key: 'fecha_entrega', label: 'Fecha de Entrega'},
            {key: 'estado', label: 'Estado'}
        ] 
     };

@@ -11,7 +11,18 @@ const instance = Axios.create({
 
 export default new Vuex.Store({
   state: {
-    kpis: [],
+    kpis: [
+      {
+        nombre: "",
+        entregadas: "",
+        pendientes: ""
+      },
+      {
+        nombre: "",
+        totales: "",
+        atrasadas: ""
+      }
+    ],
     ultimas_devoluciones: [],
     ultimas_ordenes: [],
     monitor_ordenes: [],
@@ -32,13 +43,13 @@ export default new Vuex.Store({
     MONITOR_ORDENES(state, data) {
       state.monitor_ordenes = data
     },
-    CLIENTES (state, data) {
+    CLIENTES(state, data) {
       state.cliente = data
     },
-    ORDEN (state, data) {
+    ORDEN(state, data) {
       state.orden = data
     },
-    PRODUCTOS (state, data) {
+    PRODUCTOS(state, data) {
       state.productos = data
     },
   },
